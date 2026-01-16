@@ -65,7 +65,7 @@ class AkinatorEngine:
         text, _ = next_q
 
         self.update_ui(
-            f"🤔 {text}\n\nQuestion {self.q_count + 1}/{self.MAX_QUESTIONS}\nConfidence: {confidence}%",
+            f"🤔 {text}\n\nQuestion {self.q_count + 1}/{self.MAX_QUESTIONS}\nLevel: {confidence}%",
             False,
             confidence
         )
@@ -81,15 +81,15 @@ class AkinatorEngine:
         confidence = self.compute_confidence()
 
         if not self.candidates:
-            self.update_ui("😢 I’m out of ideas.", True, confidence)
+            self.update_ui("😢 Does it even exist", True, confidence)
             return
 
         guess = self.candidates[0]["name"]
 
         message = (
-            f"🎯 My guess:\n\n{guess}\n\nConfidence: {confidence}%"
+            f"🎯 I Think:\n\n{guess}\n\nLevel: {confidence}%"
             if not force
-            else f"⏹ Final guess:\n\n{guess}\n\nConfidence: {confidence}%"
+            else f"⏹ Finally:\n\n{guess}\n\nLevel: {confidence}%"
         )
 
         self.update_ui(message, True, confidence)

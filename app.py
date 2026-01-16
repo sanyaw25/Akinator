@@ -15,14 +15,14 @@ from data.superheroes import SUPERHEROES
 
 CATEGORIES = {
     "🐾 Animals": ANIMALS,
-    "🎌 Anime": ANIME,
+    "🎌 Cartoon": ANIME,
     "🌍 Countries": COUNTRIES,
-    "🍔 Food": FOOD,
-    "🎮 Game Characters": GAME_CHARACTERS,
+    "🍔 Khana": FOOD,
+    "🎮 Characters": GAME_CHARACTERS,
     "🌟 Genshin": GENSHIN,
-    "🎬 Movies": MOVIES,
+    "🎬 Films": MOVIES,
     "📦 Objects": OBJECTS,
-    "⚡ Pokémon": POKEMON,
+    "⚡ Cartoon 2.0": POKEMON,
     "🦸 Superheroes": SUPERHEROES,
 }
 

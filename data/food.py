@@ -11,6 +11,16 @@ FOOD = {
             "carbs_heavy": True, "protein_heavy": False,
         },
         {
+            "name": "Manchurian 🥘",
+            "sweet": False, "spicy": True, "veg": False,
+            "fast_food": True, "baked": False, "fried": False,
+            "served_hot": True, "contains_cheese": False,
+            "contains_meat": True, "italian": False, "indian": False,
+            "healthy": False, "street_food": True,
+            "liquid": False, "dessert": False,
+            "carbs_heavy": True, "protein_heavy": True,
+        },
+        {
             "name": "Burger 🍔",
             "sweet": False, "spicy": False, "veg": False,
             "fast_food": True, "baked": False, "fried": True,
