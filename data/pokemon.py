@@ -45,6 +45,15 @@ POKEMON = {
             "yellow": False, "animal_like": True,
             "humanoid": False, "rare": False,
         },
+        {
+            "name": "Gyarados 🌊",
+            "electric": False, "fire": False, "water": True, "grass": False,
+            "flying": True, "legendary": False, "cute": False,
+            "four_legs": False, "can_evolve": True,
+            "starter": False, "strong": True,
+            "yellow": False, "animal_like": True,
+            "humanoid": False, "rare": True,
+        },
     ],
 
     "questions": [
@@ -54,7 +63,7 @@ POKEMON = {
         ("Is it Grass-type?", "grass"),
         ("Can it fly?", "flying"),
         ("Is it Legendary?", "legendary"),
-        ("Is it cute?", "cute"),
+        ("Do you think it's cute?", "cute"),
         ("Does it have four legs?", "four_legs"),
         ("Can it evolve?", "can_evolve"),
         ("Is it a starter Pokémon?", "starter"),
